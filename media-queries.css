@@ -1,0 +1,1548 @@
+:root{
+  --primary-color:#eb7018;
+  --primary-light-color:white;
+  --primary-bg-color:rgb(0 , 0, 0);
+  --primary-bg-color-light:#0d0d0e;
+  --secondary-bg-color-light:#060607;
+  --primary-dark: #bd570e;
+  --primary-text-dark:#1b1b1d;
+  --primary-font:poppins;
+  --secondary-font:cocogoose;
+}
+
+@font-face {
+  font-family: poppins;
+  src: url("fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: cocogoose;
+  src: url("Fonts/Cocogoose\ Pro-trial.ttf");
+}
+
+
+/* Home section start */
+
+@media all and (min-width:300px) {
+  .row .first-one {
+    text-align: center;
+    margin-right: 0rem;
+  }
+
+  .p1 {
+    font-size: 2.5rem;
+    margin-top: 5rem;
+  }
+
+  .p1i {
+    margin-top: 5rem;
+    font-size: 3rem;
+  }
+
+  #three {
+    text-align: center;
+    margin-top: 3rem;
+  }
+
+  .p2 {
+    font-size: 1.5rem;
+    font-weight: bolder;
+  }
+
+  .p3 {
+    font-size: 0.9rem;
+    line-height: 1rem;
+  }
+
+  button.botn {
+    font-size: 0, 9rem;
+    color: black;
+    font-weight: bold;
+    font-family: var(--primary-font);
+  }
+}
+
+
+@media all and (min-width:400px) {
+  .row .first-one {
+    text-align: center;
+    margin-right: 0rem;
+  }
+
+  .p1 {
+    margin-top: 5rem;
+    font-size: 3rem;
+  }
+
+  .p1i {
+    margin-top: 5rem;
+    font-size: 4.3rem;
+  }
+
+  #three {
+    text-align: center;
+  }
+
+  .p2 {
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-top: 3rem;
+  }
+
+  .p3 {
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+
+  button.botn {
+    font-size: 1.5rem;
+    color: black;
+    font-weight: bold;
+    font-family: var(--primary-font);
+  }
+}
+
+
+@media all and (min-width:576px) {
+  .row .first-one {
+    text-align: center;
+    margin-right: 0rem;
+  }
+
+  .p1 {
+    font-size: 4rem;
+  }
+
+  .p1i {
+    margin-top: 5rem;
+    font-size: 5rem;
+  }
+
+  #three {
+    text-align: center;
+  }
+
+  .p2 {
+    font-size: 3rem;
+    font-weight: bolder;
+  }
+
+  .p3 {
+    font-size: 1.7rem;
+  }
+
+  button.botn {
+    font-size: 2rem;
+    color: black;
+    font-weight: bold;
+    font-family: var(--primary-font);
+  }
+}
+
+
+@media all and (min-width:768px) {
+  .row .first-one {
+    text-align: center;
+    margin-right: 0rem;
+  }
+
+  .p1 {
+    margin-top: 9rem;
+    font-size: 4rem;
+  }
+
+  .p1i {
+    margin-top: 7rem;
+    font-size: 4.5rem;
+  }
+
+  #three {
+    text-align: center;
+    margin-top: 7rem;
+  }
+
+  .p2 {
+    font-size: 3rem;
+    font-weight: bolder;
+  }
+
+  .p3 {
+    font-size: 1.7rem;
+  }
+
+  button.botn {
+    margin-top: 2rem;
+    font-size: 2rem;
+    color: black;
+    font-weight: bold;
+    font-family: var(--primary-font);
+  }
+}
+
+@media all and (min-width:992px) {
+  .row .first-one {
+    text-align: left;
+    margin-right: 0rem;
+    margin-top: 3rem;
+  }
+
+  .p1 {
+    margin-top: 5rem;
+    font-size: 2rem;
+  }
+
+  .p1i {
+    margin-top: 2rem;
+    font-size: 4rem;
+  }
+
+  #three {
+    margin-top: 0rem;
+    padding-left: 0rem;
+    margin-top: 0rem;
+    text-align: right;
+  }
+
+  .p2 {
+    margin-top: 5rem;
+    font-size: 2.5rem;
+    font-weight: bolder;
+  }
+
+  .p3 {
+    font-size: 1.5rem;
+    line-height: 1.4rem;
+  }
+
+  button.botn {
+    font-size: 1rem;
+    color: black;
+    font-weight: bold;
+    font-family: var(--primary-font);
+  }
+
+  .profile-img {
+    width: 350px;
+  }
+}
+
+@media all and (min-width:1280px) {  
+  .row .first-one {
+    text-align: left;
+    margin-right: 0rem;
+    margin-top: 3rem;
+  }
+
+  .p1 {
+    margin-top: 5rem;
+    font-size: 2.3rem;
+  }
+
+  .p1i {
+    margin-top: 3rem;
+    font-size: 4.2rem;
+  }
+
+  #three {
+    margin-top: 0rem;
+    padding-left: 0rem;
+    margin-top: 0rem;
+    text-align: right;
+  }
+
+  .p2 {
+    margin-top: 5rem;
+    font-size: 2.5rem;
+    font-weight: bolder;
+  }
+
+  .p3 {
+    font-size: 1.5rem;
+    line-height: 1.4rem;
+  }
+
+  button.botn {
+    font-size: 1rem;
+    color: black;
+    font-weight: bold;
+    font-family: var(--primary-font);
+  }
+
+  .profile-img {
+    width: 350px;    
+  }
+}
+
+/* Home section end */
+
+/* About section start */
+@media all and (min-width:300px){
+  .heading-1{
+    margin-top: 10rem;
+  }
+  .heading-1{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .a-text{
+    text-align: center;
+    font-size: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    line-height: 1.7rem;
+    margin-bottom: 10rem;
+  }
+}
+
+@media all and (min-width:400px){
+  .heading-1{
+    margin-top: 10rem;
+  }
+  .heading-1{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .a-text{
+    text-align: center;
+    font-size: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    line-height: 1.7rem;
+    margin-bottom: 10rem;
+  }
+}
+
+@media all and (min-width:576px){
+  .heading-1{
+    margin-top: 10rem;
+    margin-bottom:5rem;
+  }
+  .heading-1{
+    font-size: 3.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .a-text{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    line-height: 2rem;
+    margin-bottom: 10rem;
+  }
+}
+
+@media all and (min-width:768px){
+  .heading-1{
+    margin-top: 10rem;
+    margin-bottom:5rem;
+  }
+  .heading-1{
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .a-text{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-left:3rem;
+    margin-right: 3rem;
+    line-height: 2rem;
+    margin-bottom: 4rem;
+    margin-top: 6rem;
+  }
+}
+
+@media all and (min-width:992px){
+  .heading-1{
+    margin-top: 10rem;
+    margin-bottom:5rem;
+  }
+  .heading-1{
+    font-size: 4rem;
+    text-align: left;
+    margin-bottom: 2rem;
+  }
+  .a-text{
+    text-align: left;
+    font-size: 1.2rem;
+    margin-left:0rem;
+    margin-right: 0rem;
+    line-height: 2rem;
+    margin-bottom: 4rem;
+    margin-top: 6rem;
+  }
+
+  .illustrate-1{
+    width: 220px;
+    margin-top: 10rem;
+    margin-left: 9rem;
+    margin-right: 7rem;
+  }
+}
+
+@media all and (min-width:1280px){
+  .heading-1{
+    margin-top: 15rem;
+    margin-bottom:5rem;
+  }
+  .heading-1{
+    font-size: 5rem;
+    text-align: left;
+    margin-bottom: 2rem;
+  }
+  .a-text{
+    text-align: left;
+    font-size: 1.4rem;
+    margin-left:0rem;
+    margin-right: 0rem;
+    line-height: 2rem;
+    margin-bottom: 4rem;
+    margin-top: 6rem;
+  }
+
+  .illustrate-1{
+    width: 230px;
+    margin-top: 10rem;
+    margin-left: 15rem;
+    margin-right: 5rem;
+  }
+}
+/* About section end */
+
+/* What i do section start */
+
+@media all and (min-width:300px){
+  .heading-2{
+    margin-top: 10rem;
+  }
+  .heading-2{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .s-text{
+    text-align: center;
+    font-size: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    line-height: 1.7rem;
+    margin-bottom: 10rem;
+  }
+}
+
+@media all and (min-width:400px){
+  .heading-2{
+    margin-top: 5rem;
+  }
+  .heading-2{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .s-text{
+    text-align: center;
+    font-size: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    line-height: 1.7rem;
+    margin-bottom: 10rem;
+  }
+}
+
+@media all and (min-width:576px){
+  .heading-2{
+    margin-top: 10rem;
+    margin-bottom:5rem;
+  }
+  .heading-2{
+    font-size: 3.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .s-text{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    line-height: 2rem;
+    margin-bottom: 10rem;
+  }
+}
+
+@media all and (min-width:768px){
+  .heading-2{
+    margin-top: 10rem;
+    margin-bottom:5rem;
+  }
+  .heading-2{
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .s-text{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-left:3rem;
+    margin-right: 3rem;
+    line-height: 2rem;
+    margin-bottom: 4rem;
+    margin-top: 6rem;
+  }
+}
+
+@media all and (min-width:992px){
+  .heading-2{
+    margin-top: 10rem;
+    margin-bottom:5rem;
+  }
+  .heading-2{
+    font-size: 4rem;
+    text-align: right;
+    margin-bottom: 2rem;
+  }
+  .s-text{
+    text-align: right;
+    font-size: 1.2rem;
+    margin-left:0rem;
+    margin-right: 0rem;
+    line-height: 2rem;
+    margin-bottom: 4rem;
+    margin-top: 6rem;
+  }
+
+  .illustrate-2{
+    width: 400px;
+    margin-top: 12rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+}
+
+@media all and (min-width:1280px){
+  .heading-2{
+    margin-top: 10rem;
+    margin-bottom:5rem;
+  }
+  .heading-2{
+    font-size: 5rem;
+    text-align: right;
+    margin-bottom: 2rem;
+  }
+  .s-text{
+    text-align: right;
+    font-size: 1.4rem;
+    margin-left:0rem;
+    margin-right: 0rem;
+    line-height: 2rem;
+    margin-bottom: 4rem;
+    margin-top: 6rem;
+  }
+
+  .illustrate-2{
+    width: 500px;
+    margin-top: 10rem;
+    margin-right: 15rem;
+    margin-left: 0rem;
+  }
+}
+
+/* What i do section end */  
+
+/* Skills start */
+
+@media all and (min-width:300px){
+  .heading-3{
+    margin-top: 10rem;
+  }
+  .heading-3{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  #svg, .skw-1 .svg-1{
+    width: 70px  !important;
+    text-align: center;
+  }
+  svg{
+    fill: var(--primary-color); 
+  }
+  .line-1{
+    width:70px;
+    height: 20px;
+    margin-bottom: 2rem;
+  }
+  .skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .skill-cta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    text-align: center  ;
+  }
+}
+
+@media all and (min-width:400px){
+  .heading-3{
+    margin-top: 10rem;
+  }
+  .heading-3{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  #svg, .skw-1 .svg-1{
+    width: 70px  !important;
+    text-align: center;
+  }
+  svg{
+    fill: var(--primary-color); 
+  }
+  .line-1{
+    width:70px;
+    height: 20px;
+    margin-bottom: 2rem;
+  }
+  .skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .skill-cta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    text-align: center  ;
+  }
+}
+
+@media all and (min-width:576px){
+  .heading-3{
+    margin-top: 10rem;
+    margin-bottom:5rem;
+  }
+  .heading-3{
+    font-size: 3.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  #svg, .skw-1 .svg-1{
+    width: 70px  !important;
+    text-align: center;
+  }
+  svg{
+    fill: var(--primary-color); 
+  }
+  .line-1{
+    width:70px;
+    height: 20px;
+    margin-bottom: 2rem;
+  }
+  .skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .skill-cta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    text-align: center  ;
+  }
+}
+
+@media all and (min-width:768px){
+  .heading-3{
+    margin-top: 10rem;
+    margin-bottom:5rem;
+  }
+  .heading-3{
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  #svg, .skw-1 .svg-1{
+    width: 70px  !important;
+    text-align: center;
+  }
+  svg{
+    fill: var(--primary-color); 
+  }
+  .line-1{
+    width:70px;
+    height: 20px;
+    margin-bottom: 2rem;
+  }
+  .skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .skill-cta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    text-align: center  ;
+  }
+}
+
+@media all and (min-width:992px){
+  .heading-3{
+    margin-top: 10rem;
+    /* margin-bottom:0rem; */
+  }
+  .heading-3{
+    font-size: 4rem;
+    text-align: left;
+    margin-bottom: 2rem;
+  }
+  #svg, .skw-1 .svg-1{
+    width: 87px  !important;
+    text-align: center;
+  }
+  svg{
+    fill: var(--primary-color); 
+  }
+  .line-1{
+    width:71px;
+    height: 21px;
+    margin-bottom: 2rem;
+  }
+  .skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .skill-cta{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+    align-items: center;  
+    text-align: center  ;
+    margin-bottom: 10rem;
+    margin-left: 2rem;
+  }
+
+  .skw-1, .skw-2, .skw-3, .skw-4, .skw-5{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom:2rem ;
+    margin-left: 2.5rem;
+  }
+  .fold-2, .fold-1{
+    margin-left: 1.5rem;
+  }
+
+  .illustrate-3{
+    width: 430px;
+    padding: 0rem;
+    margin-right: 0rem;
+    margin-left: 12rem; 
+  }
+  .skill-con{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #skills .skilling .skill{
+    margin-bottom: 10rem;
+  }
+
+}
+
+@media all and (min-width:1280px){
+  .heading-3{
+    margin-top: 10rem;
+    /* margin-bottom:0rem; */
+  }
+  .heading-3{
+    font-size: 4rem;
+    text-align: left;
+    margin-bottom: 2rem;
+  }
+  #svg, .skw-1 .svg-1{
+    width: 87px  !important;
+    text-align: center;
+  }
+  svg{
+    fill: var(--primary-color); 
+  }
+  .line-1{
+    width:71px;
+    height: 21px;
+    margin-bottom: 2rem;
+  }
+  .skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .skill-cta{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+    align-items: center;  
+    text-align: center  ;
+    margin-bottom: 10rem;
+    margin-left: 2rem;
+  }
+
+  .skw-1, .skw-2, .skw-3, .skw-4, .skw-5{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom:2rem ;
+    margin-left: 2.5rem;
+  }
+  .fold-2, .fold-1{
+    margin-left: 1.5rem;
+  }
+
+  .illustrate-3{
+    width: 430px;
+    padding: 0rem;
+    margin-right: 0rem;
+    margin-left: 17rem; 
+  }
+  .skill-con{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #skills .skilling .skill{
+    margin-bottom: 10rem;
+  }
+}
+
+/* Skills end */
+
+/* Portfolio start */
+
+@media all and (min-width:300px){
+  .heading-4{
+    margin-top: 10rem;
+  }
+  .heading-4{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+}
+
+@media all and (min-width:400px){
+  .heading-4{
+    margin-top: 10rem;
+  }
+  .heading-4{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+}
+
+@media all and (min-width:576px){
+  .heading-4{
+    margin-top: 10rem;
+    margin-bottom:5rem;
+  }
+  .heading-4{
+    font-size: 3.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+}
+
+@media all and (min-width:768px){
+  .heading-4{
+    margin-top: 10rem;
+    margin-bottom:5rem;
+  }
+  .heading-4{
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+}
+
+@media all and (min-width:992px){
+  .heading-4{
+    margin-top: 10rem;
+    /* margin-bottom:0rem; */
+  }
+  .heading-4{
+    font-size: 4rem;
+    text-align: right;
+    margin-bottom: 2rem;
+  }
+  .card .card-text{
+    font-size:0.7rem;
+  }
+}
+
+@media all and (min-width:1280px){
+  .heading-4{
+    margin-top: 10rem;
+    /* margin-bottom:0rem; */
+  }
+  .heading-4{
+    font-size: 4rem;
+    text-align:right;
+    margin-bottom: 2rem;
+  }
+}
+/* Portfolio end*/
+
+
+/* Contact start */
+@media all and (min-width:300px){
+  .heading-5{
+    margin-top: 10rem;
+  }
+  .heading-5{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .contact-list{
+    list-style : none;
+    color: var(--primary-light-color);
+    font-family: var(--primary-font );
+    font-size: 0.95rem;
+  }
+  .contact-list li{
+    margin-bottom: 1.2rem;
+  }
+  .sixth-one{
+    margin-top: 3rem;
+    color: var(--primary-light-color);
+    font-family: var(--primary-font);
+  }
+  
+  .for-form{
+    background-color: var(--secondary-bg-color-light);
+    padding-top: 0.8rem;
+    border-radius: 0.9rem;
+  }
+  .form-proper{
+    font-size: 0.94rem;
+    margin: 1rem;
+  }
+  .form-text-1{
+    color:var(--primary-text-dark);    
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .form-text{
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 1.3rem;
+  }
+  .form-proper .name-input{
+    width:13.5rem;
+    font-size: 0.75rem;
+  }
+ 
+  .form-proper .email-input{
+    margin-left: 0.255rem;
+    width:13.5rem;
+    font-size: 0.75rem;
+  }
+  #msg-alone{
+    margin-top: 1.3rem;
+  }
+  .form-proper .msg-input{
+    background-color: var(--primary-bg-color);
+    border-color:var(--secondary-bg-color-light);
+    color: var(--primary-light-color);
+    font-size: 0.8rem;
+    width: 13.5rem;
+    padding: 0.15rem 0.4rem 0.15rem 0.4em;      
+  }
+ .form-proper .form-btn{
+  padding: 0.3rem 5.9rem 0.3rem 5.9rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.8rem;
+  border-radius: 0.5rem;  
+ }
+ .form-proper .form-btn:hover{
+  color: var(--primary-text-dark);
+ }
+}
+@media all and (min-width:400px){
+  .heading-5{
+    margin-top: 10rem;
+  }
+  .heading-5{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .contact-list{
+    list-style : none;
+    color: var(--primary-light-color);
+    font-family: var(--primary-font );
+    font-size: 0.95rem;
+  }
+  .contact-list li{
+    margin-bottom: 1.2rem;
+  }
+  .sixth-one{
+    margin-top: 3rem;
+    color: var(--primary-light-color);
+    font-family: var(--primary-font);
+    margin-bottom: 3rem;
+  }
+  
+  .for-form{
+    background-color: var(--secondary-bg-color-light);
+    padding-top: 0.8rem;
+    border-radius: 0.9rem;
+  }
+  .form-proper{
+    font-size: 0.94rem;
+    margin:1rem;    
+  }
+  .form-text-1{
+    color:var(--primary-text-dark);    
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .form-text{
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 1.3rem;
+  }
+  .form-proper .name-input{
+    width:20rem;
+    font-size: 0.75rem;
+  }
+ 
+  .form-proper .email-input{
+    margin-left: 0.255rem;
+    width:19.5rem;
+    font-size: 0.75rem;
+  }
+  #msg-alone{
+    margin-top: 1.3rem;
+  }
+  .form-proper .msg-input{
+    background-color: var(--primary-bg-color);
+    border-color:var(--secondary-bg-color-light);
+    color: var(--primary-light-color);
+    font-size: 0.8rem;
+    width: 20.5rem;
+    padding: 0.15rem 0.4rem 0.15rem 0.4em;      
+  }
+ .form-proper .form-btn{
+  padding: 0.3rem 9rem 0.3rem 9rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.8rem;
+  border-radius: 0.5rem;  
+ }
+ .form-proper .form-btn:hover{
+  color: var(--primary-text-dark);
+ }
+}
+
+@media all and (min-width:576px){
+  .heading-5{
+    margin-top: 10rem;
+  }
+  .heading-5{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .contact-list{
+    list-style : none;
+    color: var(--primary-light-color);
+    font-family: var(--primary-font );
+    font-size: 0.95rem;
+  }
+  .contact-list li{
+    margin-bottom: 1.2rem;
+  }
+  .sixth-one{
+    margin-top: 3rem;
+    color: var(--primary-light-color);
+    font-family: var(--primary-font);
+    margin-bottom: 3rem;
+ 
+  }
+  
+  .for-form{
+    background-color: var(--secondary-bg-color-light);
+    padding-top: 0.8rem;
+    border-radius: 0.9rem;
+  }
+  .form-proper{
+    font-size: 0.94rem;
+    margin:3rem 5rem 1rem 5rem;    
+    text-align: left;
+  }
+  .form-text-1{
+    color:var(--primary-text-dark);    
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .form-text{
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 1.3rem;
+  }
+  .form-proper .name-input{
+    width:20rem;
+    font-size: 0.75rem;
+  }
+ 
+  .form-proper .email-input{
+    margin-left: 0.255rem;
+    width:19.5rem;
+    font-size: 0.75rem;
+  }
+  #msg-alone{
+    margin-top: 1.3rem;
+    text-align: left;
+  }
+  .form-proper .msg-input{
+    background-color: var(--primary-bg-color);
+    border-color:var(--secondary-bg-color-light);
+    color: var(--primary-light-color);
+    font-size: 0.8rem;
+    width: 20.5rem;
+    padding: 0.15rem 0.4rem 0.15rem 0.4em;      
+  }
+ .form-proper .form-btn{
+  padding: 0.3rem 9rem 0.3rem 9rem;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;  
+ }
+ .form-proper .form-btn:hover{
+  color: var(--primary-text-dark);
+ }
+}
+
+@media all and (min-width:768px){
+  .heading-5{
+    margin-top: 10rem;
+  }
+  .heading-5{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .contact-list{
+    list-style : none;
+    color: var(--primary-light-color);
+    font-family: var(--primary-font );
+    font-size: 0.95rem;
+  }
+  .contact-list li{
+    margin-bottom: 1.2rem;
+  }
+  .sixth-one{
+    margin-top: 3rem;
+    color: var(--primary-light-color);
+    font-family: var(--primary-font);
+    margin-bottom: 3rem;
+ 
+  }
+  
+  .for-form{
+    background-color: var(--secondary-bg-color-light);
+    padding-top: 0.8rem;
+    border-radius: 0.9rem;
+  }
+  .form-proper{
+    font-size: 0.94rem;
+    margin:3rem 3rem 1rem 4rem;    
+    text-align: left;
+  }
+  .form-text-1{
+    color:var(--primary-text-dark);    
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .form-text{
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 1.3rem;
+  }
+  .form-proper .name-input{
+    width:20rem;
+    font-size: 0.75rem;
+  }
+ 
+  .form-proper .email-input{
+    margin-left: 0.255rem;
+    width:19.56rem;
+    font-size: 0.75rem;
+  }
+  #msg-alone{
+    margin-top: 1.3rem;
+    text-align: left;
+  }
+  .form-proper .msg-input{
+    background-color: var(--primary-bg-color);
+    border-color:var(--secondary-bg-color-light);
+    color: var(--primary-light-color);
+    font-size: 0.8rem;
+    width: 20.5rem;
+    padding: 0.15rem 0.4rem 0.15rem 0.4em;      
+  }
+ .form-proper .form-btn{
+  padding: 0.3rem 9rem 0.3rem 9rem;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;  
+ }
+ .form-proper .form-btn:hover{
+  color: var(--primary-text-dark);
+ }
+}
+
+@media all and (min-width:992px){
+  .heading-5{
+    margin-top: 10rem;
+  }
+  .heading-5{
+    font-size: 4rem;
+    text-align: left;
+    margin-bottom: 2rem;
+  }
+  .contact-list{
+    list-style : none;
+    color: var(--primary-light-color);
+    font-family: var(--primary-font );
+    font-size: 0.95rem;
+  }
+  .contact-list li{
+    margin-bottom: 1.2rem;
+  }
+  .sixth-one{
+    margin-top: 3rem;
+    color: var(--primary-light-color);
+    font-family: var(--primary-font);
+    margin-bottom: 3rem;
+ 
+  }
+  
+  .for-form{
+    background-color: var(--secondary-bg-color-light);
+    padding-top: 0.8rem;
+    border-radius: 0.9rem;
+  }
+  .form-proper{
+    font-size: 0.94rem;
+    margin:3rem 1rem 1rem 1.5rem;    
+    text-align: left;
+  }
+  .form-text-1{
+    color:var(--primary-text-dark);    
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .form-text{
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 1.3rem;
+  }
+  .form-proper .name-input{
+    width:20rem;
+    font-size: 0.75rem;
+  }
+ 
+  .form-proper .email-input{
+    margin-left: 0.255rem;
+    width:19.5rem;
+    font-size: 0.75rem;
+  }
+  #msg-alone{
+    margin-top: 1.3rem;
+    text-align: left;
+  }
+  .form-proper .msg-input{
+    background-color: var(--primary-bg-color);
+    border-color:var(--secondary-bg-color-light);
+    color: var(--primary-light-color);
+    font-size: 0.8rem;
+    width: 20.5rem;
+    padding: 0.15rem 0.4rem 0.15rem 0.4em;      
+  }
+ .form-proper .form-btn{
+  padding: 0.3rem 9rem 0.3rem 9rem;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;  
+ }
+ .form-proper .form-btn:hover{
+  color: var(--primary-text-dark);
+ }
+}
+
+@media all and (min-width:1232px){
+  .form-proper{
+    margin:3rem 1rem 1rem 3.9rem;   
+  }
+}
+@media all and (min-width:1280px){
+  .heading-5{
+    margin-top: 10rem;
+  }
+  .heading-5{
+    font-size: 4rem;
+    text-align: left;
+    margin-bottom: 2rem;
+  }
+  .contact-list{
+    list-style : none;
+    color: var(--primary-light-color);
+    font-family: var(--primary-font );
+    font-size: 1.2rem;
+  }
+  .contact-list li{
+    margin-bottom: 1.2rem;
+  }
+  .sixth-one{
+    margin-top: 3rem;
+    color: var(--primary-light-color);
+    font-family: var(--primary-font);
+    margin-bottom: 3rem;
+ 
+  }
+  
+  .for-form{
+    background-color: var(--secondary-bg-color-light);
+    padding-top: 0.8rem;
+    border-radius: 0.9rem;
+  }
+  .form-proper{
+    font-size: 1rem;
+    margin:3rem 2rem 1rem 2.5rem;    
+    text-align: left;
+  }
+  .form-text-1{
+    color:var(--primary-text-dark);    
+    font-size: 2.1rem;
+    text-align: center;
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+  .form-text{
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 1.45rem;
+  }
+  .form-proper .name-input{
+    width:23rem;
+    font-size: 1rem;
+  }
+ 
+  .form-proper .email-input{
+    margin-left: 0.355rem;
+    width:22.5rem;
+    font-size: 1rem;
+  }
+  #msg-alone{
+    margin-top: 1.3rem;
+    text-align: left;
+  }
+  .form-proper .msg-input{
+    background-color: var(--primary-bg-color);
+    border-color:var(--secondary-bg-color-light);
+    color: var(--primary-light-color);
+    font-size: 0.8rem;
+    width: 23.5rem;
+    padding: 0.15rem 0.4rem 0.15rem 0.4em;      
+  }
+ .form-proper .form-btn{
+  padding: 0.3rem 10rem 0.3rem 10.67rem;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;  
+ }
+ 
+}
+
+/* Contact end */
+
+
+
+
+/* powered start */
+@media all and (min-width:300px){
+  .heading-6{
+    margin-top: 10rem;
+    padding-top:1.5rem;
+  }
+  .heading-6{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .sub-seventh{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+ .sub-seventh .break-1, .break-2{
+    width: 150px;
+    margin-bottom: 2rem ;
+  }
+  .footer{
+    font-size: 0.85rem;
+    padding:0.1rem 0rem;
+  }
+ 
+}
+@media all and (min-width:400px){
+  .heading-6{
+    margin-top: 10rem;
+    padding-top:1.5rem;
+  }
+  .heading-6{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .sub-seventh{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+ .sub-seventh .break-1, .break-2{
+    width: 150px;
+    margin-bottom: 2rem ;
+  }
+  .footer{
+    font-size: 0.85rem;
+    padding:0.1rem 0rem;
+  }
+}
+@media all and (min-width:576px){
+  .heading-6{
+    margin-top: 10rem;
+    padding-top:1.5rem;
+  }
+  .heading-6{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .sub-seventh{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+ .sub-seventh .break-1, .break-2{
+    width: 150px;
+    margin-bottom: 2.5rem ;
+  }
+  .footer{
+    font-size: 0.85rem;
+    padding:0.1rem 0rem;
+  }
+}
+@media all and (min-width:768px){
+  .heading-6{
+    margin-top: 10rem;
+    padding-top:1.5rem;
+  }
+  .heading-6{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .sub-seventh{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+ .sub-seventh .break-1, .break-2{
+    width: 150px;
+    margin-bottom: 2rem ;
+  }
+  .footer{
+    font-size: 0.85rem;
+    padding:0.1rem 0rem;
+  }
+}
+@media all and (min-width:992px){
+  .heading-6{
+    margin-top: 10rem;
+    padding-top:1.5rem;
+  }
+  .heading-6{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .sub-seventh{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+ .sub-seventh .break-1, .break-2{
+    width: 150px;
+    margin-bottom: 2.5rem ;
+  }
+  .footer{
+    font-size: 0.85rem;
+    padding:0.1rem 0rem;
+  }
+}
+
+@media all and (min-width:1280px){
+  .heading-6{
+    margin-top: 10rem;
+    padding-top:1.5rem;
+  }
+  .heading-6{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .sub-seventh{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+ .sub-seventh .break-1, .break-2{
+    width: 198px;
+    margin-top: 2.5rem ;
+  }
+  .footer{
+    font-size: 0.85rem;
+    padding:0.1rem 0rem;
+  }
+}
+/* powered end */

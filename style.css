@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+  --primary-color:#eb7018;
+  --primary-light-color:white;
+  --primary-bg-color:rgb(0 , 0, 0);
+  --primary-bg-color-light:#0d0d0e;
+  --secondary-bg-color-light:#060607;
+  --primary-dark: #bd570e;
+  --primary-font:poppins;
+  --secondary-font:cocogoose;
+}
+@font-face {
+  font-family: poppins;
+  src: url("fonts/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: cocogoose;
+  src: url("Fonts/Cocogoose\ Pro-trial.ttf");
+}
+
+#main-body{
+  background: var(--primary-bg-color);
+}
+
+#navbarSupportedContent #main-list li a{
+  color:var(--primary-bg-color);
+  font-family: poppins;
+  font-size: 1.1rem;
+}
+
+#main-list li a:hover{
+  background-color:var(--primary-color);
+  padding: 0.3rem 1rem;
+  border-radius: 50px;
+}
+#main-list li a:active{
+  background-color: var(--primary-color);
+  padding: 0.3rem 1rem;
+  border-radius: 50px;
+}
+
+
+.navbar .navbar-brand #main-brand{
+  width:75px;
+}
+
+.profile-img{
+  width:400px;
+}
+#name{
+  display: block;
+  color: var(--primary-color);
+  font-family: cocogoose;
+  line-height: 4rem;
+}
+
+#text-1{
+  color: white;
+  font-family: poppins;
+}
+
+.p2{
+  font-weight: bold;
+  text-wrap: wrap;
+}
+.p3{
+  font-size: 2rem;
+  line-height: 2rem;
+}
+.botn{
+  background-color: var(--primary-color);
+  margin-top: 2rem;
+  font-size:1.2rem ;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 50px;
+}
+.botn:hover{
+  background-color:var(--primary-dark) ;
+}
+
+/* About Section */
+
+.heading-1{
+  font-size: 5rem;
+  font-family: var(--secondary-font);
+  color: var(--primary-color);
+}
+.a-text{
+  font-family: var(--primary-font);
+  color: white;
+}
+
+/* What i do? section */
+
+.heading-2{
+  font-size: 5rem;
+  font-family: var(--secondary-font);
+  color: var(--primary-color);
+}
+.s-text{
+  font-family: var(--primary-font);
+  color: white;
+}
+
+/* Skills */
+.heading-3{
+  font-size: 5rem;
+  font-family: var(--secondary-font);
+  color: var(--primary-color);
+}
+.skills-text{
+  font-family: var(--primary-font);
+  color: white;
+}
+
+/* Portfolio */
+#card{
+  background-color: var(--secondary-bg-color-light) ;
+}
+#card .card-title{
+  font-family: var(--secondary-font);
+  color:var(--primary-color);
+}
+#card .card-text{
+  font-family: var(--primary-font);
+  color:var(--primary-light-color) ;
+}
+.card-btn-1{
+  font-family: var(--primary-font);
+  border: 1px solid var(--primary-color);
+  color: var(--primary-light-color);
+  text-decoration: none;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  background-color: transparent;
+  border-radius: 0.3rem;
+}
+.card-btn-1:hover{
+  text-decoration: none;
+  background-color: var(--primary-light-color);
+  color: var(--primary-bg-color-light);
+  border: 1px solid var(--primary-light-color);
+}
+.card-btn-2{
+  font-family: var(--primary-font);
+  border: 1px solid var(--primary-color);
+  color: var(--primary-light-color);
+  text-decoration: none;
+  padding: 0.4rem 0.8rem 0.4rem 0.8rem;
+  background-color: transparent;
+  border-radius: 0.3rem;
+}
+.card-btn-2:hover{
+  text-decoration: none;
+  background-color: var(--primary-color);
+  color: var(--primary-bg-color-light);
+}
+.fa-regular .fa-heart:hover{
+  color: var(--primary-bg-color-light);
+}
+.heading-4{
+  font-size: 5rem;
+  font-family: var(--secondary-font);
+  color: var(--primary-color);
+}
+
+/* Contact */
+.heading-5{
+  font-size: 5rem;
+  font-family: var(--secondary-font);
+  color: var(--primary-color);
+}
+.form-proper{
+  text-align: left;
+}
+.form-proper .form-btn:hover{
+  background-color: rgb(202, 199, 199);
+ }
+ .linking{
+  text-decoration: none;
+  color: var(--primary-light-color);
+ } 
+ .linking:hover{
+  color:rgb(202, 199, 199) ;
+  text-decoration: none;
+ }
+
+ /* powered by */
+ #powered{
+  background: var(--secondary-bg-color-light);
+ }
+ .heading-6{
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-family: var(--secondary-font);
+  color:var(--primary-color);
+}
+.footer{
+  background-color:var(--primary-color);
+  color: var(--primary-light-color);
+  text-align: center;
+  font-family: var(--primary-font);
+}
+.ftr-link{
+  text-decoration: none;
+  color:var(--primary-light-color);
+}
+.ftr-link:hover{
+  color: rgb(202, 199, 199);
+  text-decoration: none;
+}
+.footer span{
+  color: var(--primary-light-color);
+}
+.footer strong{
+  color: var(--primary-bg-color);
+}
+ 
